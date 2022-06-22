@@ -12,7 +12,7 @@ import pageObjects.LoginPageObjects;
 public class LoginTestCase {
 	@Test
 	public void login() throws InterruptedException {
-		
+		//added sample line for git
 		System.setProperty("webdriver.chrome.driver", "D:\\CTS\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
